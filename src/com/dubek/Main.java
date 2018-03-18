@@ -23,7 +23,7 @@ public class Main extends Application{
 
 	int interval = 0;
 
-    public static void main(String[] args){
+	public static void main(String[] args){
 		launch(args);
 	}
 
@@ -63,10 +63,10 @@ public class Main extends Application{
 		root.setPadding(new Insets(8, 8, 8, 8));
 
 		Scene scene = new Scene(root);
-
-    	primaryStage.setTitle("Time Tracker v1.0");
-    	primaryStage.setScene(scene);
-    	primaryStage.show();
+		
+		primaryStage.setTitle("Time Tracker v1.0");
+		primaryStage.setScene(scene);
+		primaryStage.show();
 
 		Timer myTimer = new Timer();
 		TimerTask task = new TimerTask() {
